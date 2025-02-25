@@ -35,13 +35,13 @@ The Button component is a simple button that can be customized with a variety of
 ## Colors
 
 <style>
-  .color-swatch {
-    display: inline-block;
-    width: 75px;
-    height: 75px;
-    margin: 0 10px 10px 0;
-    border: 1px solid #000;
-  }
+.color-swatch {
+display: inline-block;
+width: 75px;
+height: 75px;
+margin: 0 10px 10px 0;
+border: 1px solid #000;
+}
 </style>
 <div class="colorbox" style="
 display: flex;
@@ -49,64 +49,64 @@ justify-content: center;
 align-items: center;
 flex-direction: row;
 ">
-  <div class="colorbox" style="
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    ">
-      <div style="font-weight: bold;">Primary Pallete</div>
-      <br/>
-      <div class="colorbox" style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        ">
-      <div class="color-swatch" style="background-color: #1a1a1a; 
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        color: white;"> 
-      #1a1a1a
-      </div>
-      <div class="color-swatch" style="background-color: #2a2a2a; 
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        color: white;"> 
-      #2a2a2a
-      </div>
-    </div>
-  </div>
-  <div class="colorbox" style="
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    ">
-      <div style="font-weight: bold;">Secondary Pallete</div>
-      <br/>
-      <div class="colorbox" style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        ">
-      <div class="color-swatch" style="background-color: #f1f1f1; 
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        color: black;"> 
-      #f1f1f1
-      </div>
-      <div class="color-swatch" style="background-color: #dfdfdf; 
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        color: black;"> 
-      #dfdfdf
-      </div>
-    </div>
-  </div>
+<div class="colorbox" style="
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+">
+<div style="font-weight: bold;">Primary Pallete</div>
+<br/>
+<div class="colorbox" style="
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+">
+<div class="color-swatch" style="background-color: #1a1a1a; 
+display: flex; 
+justify-content: center;
+align-items: center;
+color: white;"> 
+#1a1a1a
+</div>
+<div class="color-swatch" style="background-color: #2a2a2a; 
+display: flex; 
+justify-content: center;
+align-items: center;
+color: white;"> 
+#2a2a2a
+</div>
+</div>
+</div>
+<div class="colorbox" style="
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+">
+<div style="font-weight: bold;">Secondary Pallete</div>
+<br/>
+<div class="colorbox" style="
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+">
+<div class="color-swatch" style="background-color: #f1f1f1; 
+display: flex; 
+justify-content: center;
+align-items: center;
+color: black;"> 
+#f1f1f1
+</div>
+<div class="color-swatch" style="background-color: #dfdfdf; 
+display: flex; 
+justify-content: center;
+align-items: center;
+color: black;"> 
+#dfdfdf
+</div>
+</div>
+</div>
 </div>
