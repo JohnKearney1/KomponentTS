@@ -1,10 +1,10 @@
-# Komponent
+# Komponent (React Library)
 
-`version: a-1.0.0`
+![`version: a-1.0.0`](./src/assets/img/screenshot.png)
 
-Komponent is my lightweight, flexible, and easy-to-use component library for React. It is designed to be a very blank, highly customizable component library that can be used to build any kind of UI with a high degree of advanced styling options. It is built with TypeScript and styled-components.
+Komponent is my lightweight, flexible component library for React. It is designed to be a very blank, highly customizable component library that can be used to build any kind of UI with a high degree of advanced styling options. It is built with TypeScript and some basic pre-styled-components.
 
-This library is still in development, and not yet published. As such, there is no build. To develop, see usage instructions below.
+This library is still in development (very much a WIP). As such, there is no build. To develop, see usage instructions below.
 
 ## Usage
 
