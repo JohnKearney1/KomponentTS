@@ -43,14 +43,12 @@ The Button component is a simple button that can be customized with a variety of
     border: 1px solid #000;
   }
 </style>
-
 <div class="colorbox" style="
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: row;
 ">
-  
   <div class="colorbox" style="
     display: flex;
     justify-content: center;
@@ -81,7 +79,6 @@ flex-direction: row;
       </div>
     </div>
   </div>
-
   <div class="colorbox" style="
     display: flex;
     justify-content: center;
@@ -112,5 +109,4 @@ flex-direction: row;
       </div>
     </div>
   </div>
-
 </div>
