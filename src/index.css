@@ -4,3 +4,21 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Define Global Styles For Component Library */
+:root {
+
+    /* Default Color Schemes */
+    --primary-color: #2a2a2a;
+    --secondary-color: #f1f1f1;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #000000;
+    --primary-hover-color: #1a1a1a;
+    --secondary-hover-color: #dfdfdf;
+
+    /* Default Size Schemes */
+    --large: 1.25em;
+    --medium: 1em;
+    --small: 0.75em;
+}
+
