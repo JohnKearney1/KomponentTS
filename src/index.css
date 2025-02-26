@@ -8,7 +8,12 @@
 /* Define Global Styles For Component Library */
 :root {
 
-    /* Default Color Schemes */
+    /* Default Font Styles */
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 0.5;
+
+    /* Default Color Styles */
     --primary-color: #2a2a2a;
     --secondary-color: #f1f1f1;
     --primary-text-color: #ffffff;
@@ -16,9 +21,15 @@
     --primary-hover-color: #1a1a1a;
     --secondary-hover-color: #dfdfdf;
 
-    /* Default Size Schemes */
+    /* Default Size Styles */
     --large: 1.25em;
     --medium: 1em;
     --small: 0.75em;
+
+    /* Miscellaneous Variables */
+    --animation-time: 0.3s;
+
+    --rounded-borders: 0.5em;
+    --square-borders: 0;
 }
 
