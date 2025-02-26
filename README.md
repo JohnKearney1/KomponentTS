@@ -26,8 +26,3 @@ This library is still in development (very much a WIP). As such, there is no bui
 ## Components
 
 For a full list of component props and usage, see the Storybook interface, or visit the [Komponent Wiki](https://github.com/JohnKearney1/komponent/wiki).
-
-### Button
-
-The Button component is a simple button that can be customized with a variety of props.
-
