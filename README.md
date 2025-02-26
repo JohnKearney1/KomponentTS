@@ -2,7 +2,7 @@
 
 ![`version: a-1.0.0`](./src/assets/img/screenshot.png)
 
-Komponent is my lightweight, flexible component library for React. It is designed to be a very blank, highly customizable component library that can be used to build any kind of UI with a high degree of advanced styling options. It is built with TypeScript and some basic pre-styled-components.
+Komponent is my lightweight, flexible component library for React. It is designed to be a very unique library with hyperconsistent styling for a "plug and play" solution for applications I build. It is built to be re-styled if neccesary, but the goal is to have a library that is pre-styled for general light and dark mode applications with a focus on accessibility and usability.
 
 This library is still in development (very much a WIP). As such, there is no build. To develop, see usage instructions below.
 
