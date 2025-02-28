@@ -1,0 +1,18 @@
+.TextField {
+    border: none;
+    box-shadow: 0 0 0 1px var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    border-radius: var(--rounded-borders);
+    padding: var(--rounded-borders-padding);
+    transition: all var(--animation-time);
+}
+
+.TextField:focus {
+    outline: none;
+}
+
+.TextField:hover {
+    box-shadow: 0 0 0 1px var(--primary-hover-color);
+    background-color: var(--primary-hover-color);
+}

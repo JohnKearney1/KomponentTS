@@ -5,31 +5,47 @@
     font-style: normal;
 }
 
-/* Define Global Styles For Component Library */
+/* Default Styles */
 :root {
-
     /* Default Font Styles */
     font-weight: 400;
     font-family: 'Inter', sans-serif;
-    line-height: 0.5;
-
-    /* Default Color Styles */
-    --primary-color: #2a2a2a;
-    --secondary-color: #f1f1f1;
+    /* line-height: 0.5; */
+  
+    /* Primary Color Styles */
+    --primary-color: #1a1a1a;
+    --primary-hover-color: #2a2a2a;
     --primary-text-color: #ffffff;
-    --secondary-text-color: #000000;
-    --primary-hover-color: #1a1a1a;
-    --secondary-hover-color: #dfdfdf;
 
+    /* Secondary Color Styles */
+    --secondary-color: #f1f1f1;
+    --secondary-hover-color: #dfdfdf;
+    --secondary-text-color: #000000;
+  
     /* Default Size Styles */
     --large: 1.25em;
     --medium: 1em;
     --small: 0.75em;
-
+  
     /* Miscellaneous Variables */
     --animation-time: 0.3s;
-
-    --rounded-borders: 0.5em;
+  
+    /* Border Styles */
+    --rounded-borders: 0.25em;
+    --rounded-borders-padding: 0.5em;
     --square-borders: 0;
-}
+  }
+  
 
+/* Dark theme overrides */
+[data-theme="light"] {
+    --primary-color: #f1f1f1;
+    --primary-hover-color: #dfdfdf;
+    --primary-text-color: #000000;
+
+    --secondary-color: #2a2a2a;
+    --secondary-hover-color: #1a1a1a;
+    --secondary-text-color: #ffffff;
+
+}
+  
