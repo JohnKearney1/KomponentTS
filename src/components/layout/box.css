@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box--row {
+    flex-direction: row;
+}
+
+.box--column {
+    flex-direction: column;
+}
+
+.box--centered {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box--rounded {
+    border-radius: var(--rounded-borders);
+}

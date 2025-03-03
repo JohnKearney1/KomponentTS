@@ -1,16 +1,11 @@
 import React from 'react';
 import './button.css';
 
-
 export interface ButtonProps {
-  /** Is this the principal call to action on the page? */
-  // primary?: boolean;
-  /** What background color to use */
-  backgroundColor?: string;
   /** How large should the button be? */
   size?: 'small' | 'medium' | 'large';
   /** Button contents */
-  label?: string;
+  children?: React.ReactNode;
   /** Optional styles that override built-in css */
   style?: React.CSSProperties;
   /** Optional click handler */
@@ -19,22 +14,20 @@ export interface ButtonProps {
 
 /** Primary UI component for user interaction */
 export const Button = ({
-  // primary = false,
-  size = 'medium',
-  backgroundColor,
-  label,
+  size = 'small',
+  children,
   style,
   ...props
 }: ButtonProps) => {
-  const mode = 'storybook-button--primary';
+  const mode = 'button--primary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={{ backgroundColor }}
+      className={['button', `button--${size}`, mode].join(' ')}
+      style={{ ...style }}
       {...props}
     >
-      {label}
+      {children}
     </button>
   );
 };

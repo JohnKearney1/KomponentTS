@@ -7,7 +7,9 @@ export interface TextFieldProps extends Omit<InputHTMLAttributes<HTMLInputElemen
   value?: string;
   /** Initial value for uncontrolled usage */
   defaultValue?: string;
-  /** Callback fired when the text changes */
+  /** Callback fired when the text changes 
+   * @param {string} newValue - The new value of the text field
+  */
   onChange?: (newValue: string) => void;
 }
 

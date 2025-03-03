@@ -1,10 +1,10 @@
 import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
-import { TextField } from '../components/TextField';
+import { TextField } from '../components/input/TextField';
 
 
 export default {
-    title: 'Components/TextField',
+    title: 'Components/Input/TextField',
     component: TextField,
     parameters: {
         layout: 'centered',

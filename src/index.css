@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-/* Default Styles */
+/* Default Styles (Dark Theme)*/
 :root {
     /* Default Font Styles */
     font-weight: 400;
@@ -23,9 +23,9 @@
     --secondary-text-color: #000000;
   
     /* Default Size Styles */
-    --large: 1.25em;
+    --large: 1.2em;
     --medium: 1em;
-    --small: 0.75em;
+    --small: 0.8em;
   
     /* Miscellaneous Variables */
     --animation-time: 0.3s;
@@ -36,8 +36,7 @@
     --square-borders: 0;
   }
   
-
-/* Dark theme overrides */
+/* Light theme */
 [data-theme="light"] {
     --primary-color: #f1f1f1;
     --primary-hover-color: #dfdfdf;
@@ -46,6 +45,5 @@
     --secondary-color: #2a2a2a;
     --secondary-hover-color: #1a1a1a;
     --secondary-text-color: #ffffff;
-
 }
   
