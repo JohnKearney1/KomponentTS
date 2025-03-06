@@ -1,8 +1,8 @@
-# Komponent - React Component Library
+# KomponentTS - React Component Library
 
 ![`version: a-1.0.0`](./src/assets/img/screenshot.png)
 
-Komponent is my lightweight, flexible component library for React. It is designed to be a very unique library with hyperconsistent styling for a "plug and play" solution for applications I build. It is built to be re-styled if neccesary, but the goal is to have a library that is pre-styled for general light and dark mode applications with a focus on accessibility and usability.
+KomponentTS is my lightweight, flexible component library for React. It is designed to be a very unique library with hyperconsistent styling for a "plug and play" solution for applications I build. It is built to be re-styled if neccesary, but the goal is to have a library that is pre-styled for general light and dark mode applications with a focus on accessibility and usability.
 
 This library is still in development (very much a WIP). As such, there is no build. To develop, see usage instructions below.
 
