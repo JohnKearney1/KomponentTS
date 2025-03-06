@@ -1,6 +1,6 @@
 {
   "name": "komponentts",
-  "version": "a-1.0.0",
+  "version": "1.0.0",
   "author": "John Kearney",
   "license": "ISC",
   "description": "A lightweight component library for React, built with TypeScript!",
