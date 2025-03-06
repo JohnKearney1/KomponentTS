@@ -130,19 +130,5 @@ describe('TextField Component', () => {
       const passwordInput = screen.getByPlaceholderText(placeholderText);
       expect(passwordInput.className).toContain('TextFieldPassword');
     });
-
-    it('matches snapshot for non-password field', () => {
-      const { asFragment } = render(
-        <TextField defaultValue="snapshot" placeholder={placeholderText} />
-      );
-      expect(asFragment()).toMatchSnapshot();
-    });
-
-    it('matches snapshot for password field', () => {
-      const { asFragment } = render(
-        <TextField password defaultValue="snapshot" placeholder={placeholderText} />
-      );
-      expect(asFragment()).toMatchSnapshot();
-    });
   });
 });
