@@ -2,3 +2,5 @@
 .env
 *storybook.log
 /dist
+
+/src/tests/__snapshots__
