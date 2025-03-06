@@ -1,18 +1,61 @@
+.TextFieldWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
 .TextField {
+    display: flex;
+    flex: 1;
     border: none;
-    box-shadow: 0 0 0 1px var(--primary-color);
+    outline: none;
     background-color: var(--primary-color);
     color: var(--primary-text-color);
     border-radius: var(--rounded-borders);
     padding: var(--rounded-borders-padding);
     transition: all var(--animation-time);
+    z-index: 1;
+}
+  
+.TextFieldPassword {
+    display: flex;
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    border-radius: var(--rounded-borders) 0 0 var(--rounded-borders);
+    padding: var(--rounded-borders-padding);
+    transition: all var(--animation-time);
+    z-index: 1;
 }
 
 .TextField:focus {
     outline: none;
 }
-
-.TextField:hover {
-    box-shadow: 0 0 0 1px var(--primary-hover-color);
+  
+.TextField:hover,
+.TextFieldPassword:hover {
     background-color: var(--primary-hover-color);
 }
+
+.TogglePasswordButton  {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    border: none;
+    border-radius: 0 var(--rounded-borders) var(--rounded-borders) 0;
+    transition: all var(--animation-time);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--rounded-borders-padding);
+    z-index: 2;
+}
+
+.TogglePasswordButton:hover {
+    cursor: pointer;
+    background-color: var(--primary-hover-color);
+}
+  

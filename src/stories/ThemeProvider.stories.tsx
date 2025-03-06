@@ -1,7 +1,7 @@
 // ThemeProvider.stories.tsx
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { ThemeProvider } from '../components/ThemeProvider';
+import { ThemeProvider } from '../components/helper/ThemeProvider';
 import { Button } from '../components/input/Button';
 import TextField from '../components/input/TextField';
 

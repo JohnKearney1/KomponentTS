@@ -25,6 +25,12 @@ export const Disabled: Story = {
     },
 };
 
+export const Password: Story = {
+    args: {
+        password: true
+    },
+};
+
 export const WithPlaceholder: Story = {
     args: {
         placeholder: 'Placeholder',
