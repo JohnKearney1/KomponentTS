@@ -1,7 +1,8 @@
+import React from 'react';
 import type { StoryObj } from '@storybook/react';
 declare const meta: {
     title: string;
-    component: ({ size, children, style, ...props }: import("../components/input/Button").ButtonProps) => import("react").JSX.Element;
+    component: ({ children, row, centered, style, ...props }: import("../components/layout/Box").BoxProps) => React.JSX.Element;
     parameters: {
         layout: string;
     };
@@ -13,6 +14,6 @@ declare const meta: {
 };
 export default meta;
 type Story = StoryObj<typeof meta>;
-export declare const Large: Story;
-export declare const Medium: Story;
-export declare const Small: Story;
+export declare const Row: Story;
+export declare const Column: Story;
+export declare const ColumnCustomized: Story;

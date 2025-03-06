@@ -1,6 +1,8 @@
 /node_modules
 .env
 *storybook.log
+
 /dist
+dist.zip
 
 /src/tests/__snapshots__
