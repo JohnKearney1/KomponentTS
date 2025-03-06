@@ -1,5 +1,8 @@
 name: Test Components 🎉
-
+permissions:
+  contents: read
+  pull-requests: write
+  
 # This workflow is triggered on pushes to the main branch and pull requests to the main branch
 on:
   push:
