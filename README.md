@@ -1,6 +1,9 @@
 # KomponentTS - React Component Library
 
-![`version: a-1.0.0`](./src/assets/img/screenshot.png)
+![`version: 1.0.0`](./src/assets/img/screenshot.png)
+
+[![Test Status](https://github.com/JohnKearney1/komponentTS/actions/workflows/test.yml/badge.svg)](https://github.com/JohnKearney1/komponentTS/actions/workflows/test.yml)
+
 
 KomponentTS is my lightweight, flexible component library for React. It is designed to be a very unique library with hyperconsistent styling for a "plug and play" solution for applications I build. It is built to be re-styled if neccesary, but the goal is to have a library that is pre-styled for general light and dark mode applications with a focus on accessibility and usability.
 
