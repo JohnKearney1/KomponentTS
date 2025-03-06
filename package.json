@@ -1,7 +1,9 @@
 {
-  "name": "komponent",
-  "version": "a-1.0.0",
-  "description": "A React + TypeScript component library",
+  "name": "KomponentTS",
+  "version": "1.0.0",
+  "author": "John Kearney",
+  "license": "ISC",
+  "description": "A lightweight component library for React, built with TypeScript!",
   "main": "dist/index.js",
   "type": "module",
   "module": "dist/index.esm.js",

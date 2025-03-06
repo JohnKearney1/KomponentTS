@@ -1,4 +1,4 @@
-# Komponent (React Library)
+# Komponent - React Component Library
 
 ![`version: a-1.0.0`](./src/assets/img/screenshot.png)
 
